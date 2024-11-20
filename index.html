@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>XD Magazine</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="header-content">
+      <div class="flag-map">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/9/99/Flag_of_the_Philippines.svg" alt="Philippine Flag" class="flag">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/3/3a/Ph_locator_map_philippines.svg" alt="Philippine Map" class="map">
+      </div>
+      <div class="title">
+        <h1>XD Magazine</h1>
+        <p>"Think Outside the Site" - Entertaining Filipino Stories</p>
+      </div>
+    </div>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#forum">Forum</a>
+    <a href="#feedback">Feedback</a>
+  </nav>
+
+  <main>
+    <section id="about">
+      <h2>About XD Magazine</h2>
+      <p>At XD Magazine, we aim to share narratives highlighting Filipino challenges and successes.</p>
+    </section>
+
+    <section id="forum">
+      <h2>Forum</h2>
+      <form id="postForm">
+        <textarea id="post" placeholder="Write your message here..." required></textarea>
+        <button type="submit">Post</button>
+      </form>
+      <div id="posts">
+        <!-- Forum posts will appear here -->
+      </div>
+    </section>
+
+    <section id="feedback">
+      <h2>Send Us Feedback</h2>
+      <form id="feedbackForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" required>
+        <label for="message">Message:</label>
+        <textarea id="message" required></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 XD Magazine</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
